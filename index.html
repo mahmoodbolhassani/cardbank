@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmood_Bolhassani</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <main id="mouse">
+        <section id="move">
+            <div class="loader">
+                <span></span>
+            </div>
+        </section>
+        <section class="all">
+            <div class="box row ">
+                <h2 class="col-12" id="showid"></h2>
+                <h3 id="showName"></h3>
+                <span class="col-2" id="scv">CVV2:</span>
+                <h3 class="col-4" id="cvv2show"></h3>
+                <span class="col-2" id="sex">EXP:</span>
+                <h3 class="col-4" id="expshow"></h3>
+            </div>
+            <div class="info row">
+                <span class="col-2 ps-3">name</span>
+                <input type="text" class="col-10" id="name" autofocus>
+                <span class="col-2 ps-3">family</span>
+                <input type="text" class="col-10" id="family">
+                <span class="col-4">CardNumber:</span>
+                <input class="col-8" type="text" id="card" >
+                <span class="col-2 ps-3" >CVV2:</span>
+                <input class="col-4" type="text" id="cvv2">
+                <span class="col-2 ps-3" >EXP:</span>
+                <input class="col-4" type="text" id="exp">
+            </div>
+        </section>
+        <div class="popup">
+            <h2>Your Card Number Is Not Valid</h2>
+            <span> ok</span>
+        </div>
+    </main>
+</body>
+<script src="assets/js/style.js"></script>
+</html>
